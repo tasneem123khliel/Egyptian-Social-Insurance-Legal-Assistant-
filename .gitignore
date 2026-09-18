@@ -1,0 +1,13 @@
+# Secrets — never commit real keys
+.streamlit/secrets.toml
+.env
+
+# Runtime user data
+users.json
+history/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
