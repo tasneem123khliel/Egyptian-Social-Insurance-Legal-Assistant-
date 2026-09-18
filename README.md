@@ -22,7 +22,7 @@ An Arabic (RTL) AI legal assistant that answers questions about the **Egyptian S
 
 | Login | Main interface | History & references |
 |---|---|---|
-| ![Login](image/01-login.png) | ![Main interface](image/02-main-interface.png) | ![History](image/03-question-history.png) |
+| ![Login](image/01-login.PNG) | ![Main interface](image/02-main-interface.PNG) | ![History](image/03-question-history.PNG) |
 
 ## 🧠 How it works
 
@@ -150,6 +150,4 @@ uvicorn api:app --host 0.0.0.0 --port 8000
 3. In the app settings add your secret: `GROQ_API_KEY = "gsk_..."`.
 4. Keep `chroma_db/` and `data/law-79-1975.pdf` in the repo so the knowledge base loads instantly.
 
-## 📄 License
 
-MIT — free for educational and research use.
